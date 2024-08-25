@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    display:  inline-block;
+    width: 230px;
+    height: 275px;
+    background-color: #66666621;
+    text-align: left;
+    display:inline-block;
+    margin: 3px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.foto{
+    position: absolute;
+    /* background-color: red; */
+    width: 230px;
+}
+img{
+    width: 230px;
+    height: 180px;
+    /* margin: 10px; */
+    /* box-shadow: 5px 5px 5px 0px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.foto .heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+.vip{
+    padding: 1px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+    right: 10px;
+    margin-top: 145px;
+}
+.foto .magaza{
+    position: absolute;
+    padding: 1px;
+    color: white;
+    width: 65px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #4264FD;
+    left: 7px;
+    margin-top: 151px;
+    font-size: 15px;
+}
+
+.comment{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.comment .h3{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.comment .h5{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.comment .p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(141, 148, 173);
+    font-size: 14px;
+}
+
+
+/* .card{
+    background-color: rgba(240, 240, 240, 0.863);
+    width: 310px;
+    height: auto;
+    text-align: center;
+    border-radius: 3%;
+    display:inline-block;
+    margin: 3px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 1px #8D94AD;
+}
+.comment h3,.comment h5,.comment p
+{
+    text-align: left;
+    margin: 0px;
+    text-indent: 10px;
+    line-height: 30px;
+    color: #212C3A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px gray;
+}
+.foto img{
+    width: 290px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px;
+    
+}
+ .comment h5{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.comment p{
+    color: #8D94AD;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}  */

@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F8F9FD;
+    width: 100vw;
+    height: 100vh;
+    min-width: 1000px;
+}
+
+.contanier {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.nav_bar {
+    width: 950px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #979188;
+}
+
+nav a:visited {
+    color: #8D94AD;
+}
+
+nav a:hover {
+    color: #BD613C;
+}
+
+nav a span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+nav p {
+    /* margin-left: 190px; */
+    padding-left: 200px;
+    color: black;
+    font-size: 14px;
+}
+
+header {
+    background-color: #FF4F08;
+    background-size: 100%;
+
+}
+
+.favorite,
+.account_circle,
+.location_on,
+.expand_more,
+.search,
+.add {
+    float: left;
+}
+
+.header {
+    width: 950px;
+    display: flex;
+    margin: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    /* background-color: aqua; */
+}
+
+header img {
+    float: left;
+    width: 95px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 625px;
+    height: 40px;
+    background-color: white;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: -100px;
+
+}
+
+.yeni_elan {
+    margin-left: -100px;
+    width: 115px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    background-color: #7ED321;
+    cursor: pointer;
+}
+
+.text input,
+.seher button,
+.tap button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.text input {
+    width: 400px;
+    outline: none;
+}
+
+.text input::placeholder {
+    color: #8D94AD;
+}
+
+
+.tap button {
+    background-color: #FE572B;
+    position: relative;
+    width: 60px;
+    height: 34px;
+    line-height: normal;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.tap button span {
+    font-size: 21px;
+    margin-right: 5px;
+    float: right;
+}
+
+.seher {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #8D94AD;
+}
+
+.more {
+    padding-left: 70px;
+}
+
+.seher button {
+    cursor: pointer;
+    color: #8D94AD;
+}
+
+.add {
+    margin-left: 15px;
+    margin-right: 3px;
+}
+
+.logo button {
+    display: inline-block;
+    background: transparent;
+    margin-top: 5px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+
+.logo .Katoloq {
+    margin-top: 2px;
+    padding-right: 2px;
+    font-size: 25px;
+    float: left;
+}
+
+.catagories_contanier {
+    background-color: #F1F3F7;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 40px;
+}
+
+.Katoloqlar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    align-items: center;
+    margin: -20px auto;
+    user-select: none;
+
+}
+
+/* .Katoloqlar img:hover{
+    border: 1px solid #BD613C;
+}
+.Katoloqlar p:hover{
+    color: #BD613C;
+} */
+
+
+/* .elektronika,
+.neqliyyat,
+.mebel,
+.emlak,
+.geyim,
+.xidmet,
+.hobby,
+.usaq,
+.heyvanlar,
+.is,
+.catagories,
+.magaza{
+    border: 1px solid #BD613C;
+    color: #BD613C;
+} */
+.Katoloqlar img {
+    /* display: inline-block; */
+    padding: 15px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid #eaebf2;
+    border-radius: 21%;
+    /* margin-bottom: 5px; */
+    margin: 14px;
+    background-color: #fff;
+}
+
+.Katoloqlar p {
+    font-size: 14px;
+    text-align: center;
+    width: 90px;
+    margin: -5px 10px;
+}
+
+.catagories_card{
+    width: 90px;
+    height: 100px;
+    margin: 30px 14px;
+}
+
+.catagories img {
+    padding: 25px;
+}
+
+.magaza img {
+    padding: 0;
+}
+
+/* ELANLAR */
+.card {
+    /* display:  inline-block; */
+    width: 230px;
+    height: 275px;
+    background-color: #66666617;
+    text-align: left;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 17px 34px 0 rgba(44, 39, 56, 0.397);
+}
+
+.foto {
+    position: absolute;
+    /* background-color: red; */
+    width: 230px;
+}
+
+.rtx {
+    width: 230px;
+    height: 180px;
+    /* margin: 10px; */
+    /* box-shadow: 5px 5px 5px 0px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.foto .heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.vip {
+    padding: 1px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    border-radius: 3px;
+    background-color: white;
+    right: 10px;
+    margin-top: 145px;
+}
+
+.foto .magaza {
+    position: absolute;
+    padding: 1px;
+    color: white;
+    width: 65px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #4264FD;
+    left: 7px;
+    margin-top: 151px;
+    font-size: 15px;
+}
+
+.comment {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.comment .h3 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.comment .h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.comment .p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(141, 148, 173);
+    font-size: 14px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0px 10px;
+}
+
+.vipElanlar {
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vipBanner,
+.sonBanner,
+.premiumBanner {
+    width: 950px;
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #8d94ad;
+    justify-content: space-between;
+}
+
+.vipBanner a {
+    color: #4c88f9;
+}
+
+.sonElanlar {
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sonBanner a {
+    color: #4c88f9;
+}
+
+.sonBanner,
+.premiumBanner {
+    margin-top: 50px;
+}
+
+.premiumBanner {
+    margin-bottom: 50px;
+}
+
+.populyarAxtarislar {}
